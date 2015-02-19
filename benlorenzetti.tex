@@ -1,0 +1,112 @@
+\documentclass[10pt,letterpaper,roman]{moderncv}	% possible options include font size, paper size, and font family
+\usepackage{color}
+\usepackage{verbatim}
+\usepackage[top=1in, bottom=.75in, left=1in, right=1in]{geometry}
+\moderncvstyle{banking}	% style options are 'casual', 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}	% color options 'blue', 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\nopagenumbers{}
+\usepackage[scale=0.75]{geometry}	% adjusts page margins
+\setlength{\hintscolumnwidth}{3cm}	% width of date column
+\name{\textcolor{black}{Benjamin M.}}{\textcolor{black}{Lorenzetti}}
+%\title{Resume Title}	% optional, remove / comment the line if not wanted
+\address{1302 Ponderosa Ct}{Fairborn, OH 45324}{}	% each individual part is optional: 
+							%{Address 1}{city, state zip}{country}
+\phone[mobile]{+1~(937)~522~1673}	% the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{lorenzbn@mail.uc.edu}
+\homepage{www.benlorenzetti.com}
+%\social[linkedin]{john.doe}
+%\social[twitter]{jdoe}
+%\social[github]{jdoe}
+%\extrainfo{additional information}
+%\photo[64pt][0.4pt]{resume-photo}	% optional, remove / comment the line if not wanted; 
+					%'64pt' is the height the picture must be resized to, 
+					%0.4pt is the thickness of the frame around it (put 
+					%it to 0pt for no frame) and 'picture' is the name of 
+					%the picture file
+\begin{document}
+\makecvtitle
+
+\section{Education}
+% {date--date}{Degree}{Institution}{City}{\textit{Grade}}{Description}
+\cventry{2013--Present}{Pursuing BS in Electrical Engineering}{University of Cincinnati}{Cincinnati, OH}{\textit{3.53/4.00}}{
+Previously pursuing BS in Mechanical Engineering \hfill 2010--2012
+}
+%\cventry{2010--2012}{Previously pursuing BS in Mechanical Engineering}{University of Cincinnati}{}{}{}
+\cventry{2006--2010}{High School Diploma}{Fairborn High School}{Fairborn, OH}{\textit{4.0/4.0}}{}
+
+\section{Experience}
+
+\cventry{Fall 2014}{Research Coop}{University of Cincinnati BioMicroSystems Lab}{Cincinnati, OH}{}{
+Responsible for improving user interface of point-of-care sensors being developed at UC.
+\begin{itemize}
+\item thumb-sized electrochemical sensors for measuring heavy metal concentrations in $H_{2}O$/blood
+\item designed PCB for interfacing commercial potentiostat and custom sensors
+\item built enclosure of potentiostat/PCB
+\item wrote software GUI for non-technical users in C/C++
+	\begin{itemize}
+		\item utilized libusb, to interface with PalmSens EmStat potentiostat
+		\item wrote Berkely Sockets HTTP/1.0 server, to make a web browser GUI
+		\item selected libusb and web server GUI, to maximize portability
+		\item utilized pthreads library, to handle USB and HTTP events simulataneously
+	\end{itemize}
+\end{itemize}}
+
+\cventry{Fall, Spring 2012}{Materials Research Coop}{Toyota Technical Center}{Ann Arbor, MI}{}{
+Fabricated superparamagnetic nanoparticle compacts and optimized their bulk-magnetic properties.
+\begin{itemize}
+\item Designed/built oxygen-free enclosure for transporting air-sensitive nanoparticles
+\item Developed sintering/annealing technique for \(Permendur/SiO_{2}\) core/shell nanoparticles
+\item Managed day-to-day maintenance and chemical inventory of Lab M2
+\item Oversaw installation of vibrating sample magnetometer (VSM) and authored TTC operating manual
+\item Regularly used IR spectrometer, VSM, LCR meter, 4-pt probe, and glove box
+\end{itemize}}
+
+\cventry{Summer 2011}{Engineering Intern}{Tec\^ Edge Discover Lab}{Dayton, OH}{}{
+Compared various commercial technologies, with regard to their potential for generating power in remote locations
+}
+
+\section{Technical Skills}
+\cvitem{Languages and Libraries}{C, C++, libusb, pthreads, MathGL, \LaTeX, HTML5, CSS3}{}{}
+\cvitem{Tools}{CadSoft Eagle, NGSPICE, MATLAB, SolidWorks, Apache, Postfix}{}{}
+
+\section{Honors and Awards}
+Eagle Scout Award, National Merit Scholar, UC|21 Scholar, Elks Most Valuable Student Scholar
+
+\section{Community Involvement}
+\emph{UC Breakfast Brigade, Student Leader}--Breakfast brigade is a service organization sponsored by St. Monica St. George Catholic Church. We prepare breakfast for day laborers in Cincinnati, who rarely have enough time between reporting at their agency and commuting to work assignments. Breakfast is served every Thursday, 4:30--5:00 a.m., at Labor Works Cincinnati.
+\\
+\\
+\cvitem{Co-op Schedule}{\emph{two semesters}, either Summer 2015/Spring 2016, or Fall 2015/Summer 2016}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+\begin{comment}
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{January 01, 1984}
+\opening{Dear Sir or Madam,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}	% use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Paragraph 1.
+
+Paragraph 2.
+
+Paragraph 3.
+
+\makeletterclosing
+
+\end{comment}
+
+\end{document}
