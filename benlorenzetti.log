@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.1.27)  27 JAN 2016 11:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.7)  25 AUG 2016 10:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,18 +976,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--29
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 64.
+(Font)              <9> on input line 70.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 64.
+(Font)              <6> on input line 70.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (./benlorenzetti.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `benlorenzetti.out' has not changed.
 (rerunfilecheck)             Checksum: 9B22C0A93244A7FC857F7D98FE6AEE3F;723.
 
@@ -997,21 +997,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  24908 strings out of 493304
- 444397 string characters out of 6139871
- 522391 words of memory out of 5000000
+ 444397 string characters out of 6139872
+ 520391 words of memory out of 5000000
  27922 multiletter control sequences out of 15000+600000
  56611 words of font info for 54 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  77i,12n,61p,10408b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}</usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/l
 mr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb
 ></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts
 /type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/q
 plri.pfb>
-Output written on benlorenzetti.pdf (2 pages, 128056 bytes).
+Output written on benlorenzetti.pdf (2 pages, 128445 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
